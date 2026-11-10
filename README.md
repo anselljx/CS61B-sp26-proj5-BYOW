@@ -13,6 +13,7 @@ UCB CS61B的结课项目project5 BYOW，用JAVA写一个小游戏。采用的是
 进入游戏后，W向上，S向下，A向左，D向右。
 
 ## 项目结构
+```text
 proj5/
 ├── src/
 │   ├── core/
@@ -23,10 +24,12 @@ proj5/
 │   │   ├── Region.java
 │   │   ├── RoomTile.java
 │   │   └── AutograderBuddy.java
+│   │
 │   ├── tileengine/
 │   │   ├── TERenderer.java
 │   │   ├── TETile.java
 │   │   └── Tileset.java
+│   │
 │   └── utils/
 │       ├── DirectionUtils.java
 │       ├── DrawUtils.java
@@ -34,8 +37,11 @@ proj5/
 │       ├── Hexagon.java
 │       ├── IndexUtils.java
 │       └── RandomUtils.java
+│
 └── tests/
     └── WorldGenTests.java
+```
+
 
 
 ## 使用技术
@@ -46,7 +52,7 @@ proj5/
 -简单文件读写
 
 ## 感谢AI以及参考项目
-使用AI：除修正大篇幅代码和改善缩进排版以外，帮我构思了generateHallway函数和解决了长按键盘画面掉帧的问题，以及无数的小提示😜
+使用AI：除修正大篇幅代码和改善缩进排版以外，帮我构思了generateHallway函数和解决了长按键盘画面掉帧的问题，以及上面的项目结构和无数的小提示😜
 也参考了不少别人的完整项目🙏
 
 ## 注
